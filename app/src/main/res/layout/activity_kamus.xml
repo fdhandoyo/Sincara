@@ -1,0 +1,189 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/kamus"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View   android:id="@+id/_bg__kamus"
+                android:background="@drawable/_bg__kamus_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="411dp"
+                android:layout_height="823dp" />
+
+            <View   android:id="@+id/rectangle_5"
+                android:background="@drawable/rectangle_5_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="112dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <View   android:id="@+id/rectangle_6"
+                android:background="@drawable/rectangle_6_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="163dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <View   android:id="@+id/rectangle_7"
+                android:background="@drawable/rectangle_7_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="214dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <View   android:id="@+id/rectangle_8"
+                android:background="@drawable/rectangle_8_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="265dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <View   android:id="@+id/rectangle_9"
+                android:background="@drawable/rectangle_9_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="316dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <View   android:id="@+id/rectangle_10"
+                android:background="@drawable/rectangle_10_shape"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="367dp"
+                android:layout_width="335dp"
+                android:layout_height="30dp" />
+
+            <TextView android:id="@+id/kamus_bahasa_isyarat"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/kamus_bahasa_isyarat_color"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="73dp"
+                android:layout_width="146.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/kamus_bahasa_isyarat_string"
+                />
+
+            <TextView android:id="@+id/buah___buahan"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="118dp"
+                android:layout_width="100.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/buah___buahan_string"
+                />
+
+            <TextView android:id="@+id/kendaraan"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="169dp"
+                android:layout_width="76.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/kendaraan_string"
+                />
+
+            <TextView android:id="@+id/binatang"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="220dp"
+                android:layout_width="63.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/binatang_string"
+                />
+
+            <TextView android:id="@+id/perkakas_rumah"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="271dp"
+                android:layout_width="111.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/perkakas_rumah_string"
+                />
+
+            <TextView android:id="@+id/kata_sifat"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="322dp"
+                android:layout_width="67.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/kata_sifat_string"
+                />
+
+            <TextView android:id="@+id/kata_kerja"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__kamus_color"
+                android:layout_marginLeft="86dp"
+                android:layout_marginTop="373dp"
+                android:layout_width="71.2dp"
+                android:layout_height="21.2dp"
+                android:text="@string/kata_kerja_string"
+                />
+
+            <ImageView android:id="@+id/paw__1__1"
+                android:src="@drawable/paw__1__1"
+                android:contentDescription="paw__1__1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="220dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <ImageView android:id="@+id/apple_1"
+                android:src="@drawable/apple_1"
+                android:contentDescription="apple_1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="117dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <ImageView android:id="@+id/car_1"
+                android:src="@drawable/car_1"
+                android:contentDescription="car_1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="169dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <ImageView android:id="@+id/tool_1"
+                android:src="@drawable/tool_1"
+                android:contentDescription="tool_1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="268dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <ImageView android:id="@+id/wrench_1"
+                android:src="@drawable/wrench_1"
+                android:contentDescription="wrench_1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="372dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <ImageView android:id="@+id/idea_1"
+                android:src="@drawable/idea_1"
+                android:contentDescription="idea_1"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="320dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,7 +1,7 @@
 <resources>
     <string name="welcome">Halo, Selamat Datang</string>
-    <string name="halo_user__selamat_datang__string">Halo User, Selamat Datang!</string>
-    <string name="halo__mari_belajar__string">Ayo Semangat Belajar!</string>
+    <string name="halo_user_selamat_datang_string">Halo User, Selamat Datang!</string>
+    <string name="halo_mari_belajar_string">Ayo Semangat Belajar!</string>
     <string name="cari_tahu_ada_apa_saja_di_sincara__string">Cari tahu ada apa saja di Sincara!</string>
     <string name="alphabet_bahasa_isyarat_string">Alphabet Bahasa Isyarat</string>
     <string name="komunikasi_bahasa_isyarat_string">Komunikasi Bahasa Isyarat</string>
@@ -9,4 +9,7 @@
     <string name="angka_bahasa_isyarat_string">Angka Bahasa Isyarat</string>
     <string name="mari_belajar_bersama_bahasa_isyarat__string">Mari Belajar Bersama Bahasa Isyarat!</string>
     <string name="selamat_datang_di_sincara__string">Selamat Datang di Sincara!</string>
+    <string name="log_gugel">Login With Google</string>
+    <string name="log_fb">Login With Facebook</string>
+    <string name="sincara">Sincara</string>
 </resources>
