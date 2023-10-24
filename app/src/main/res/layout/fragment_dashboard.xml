@@ -1,0 +1,206 @@
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/beranda_sincara"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View   android:id="@+id/_bg__beranda_sincara"
+                android:background="@drawable/_bg__beranda_sincara_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="411dp"
+                android:layout_height="823dp" />
+
+            <View   android:id="@+id/card_kamus"
+                android:background="@drawable/card_kamus_shape"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="545dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp" />
+
+            <View   android:id="@+id/card_alphabet"
+                android:background="@drawable/card_alphabet_shape"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="338dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp" />
+
+            <View   android:id="@+id/card_komunikasi"
+                android:background="@drawable/card_komunikasi_shape"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="545dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp" />
+
+            <View   android:id="@+id/card_angka_"
+                android:background="@drawable/card_angka__shape"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="338dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp" />
+
+            <View
+                android:id="@+id/cardboard"
+                android:layout_width="320dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/halo__mari_belajar_"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/cardboard_shape" />
+
+            <TextView
+                android:id="@+id/cari_tahu_ada_apa_saja_di_sincara_"
+                android:layout_width="317dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/cardboard"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cari_tahu_ada_apa_saja_di_sincara__string"
+                android:textColor="@color/cari_tahu_ada_apa_saja_di_sincara__color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/halo__mari_belajar_"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="29dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/halo__mari_belajar__string"
+                android:textColor="@color/cari_tahu_ada_apa_saja_di_sincara__color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alphabet_bahasa_isyarat"
+                android:layout_width="121.2dp"
+                android:layout_height="39.2dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="454dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/alphabet_bahasa_isyarat_string"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/komunikasi_bahasa_isyarat"
+                android:layout_width="121.2dp"
+                android:layout_height="39.2dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="661dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/komunikasi_bahasa_isyarat_string"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView android:id="@+id/kamus_bahasa_isyarat"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:layout_marginLeft="229dp"
+                android:layout_marginTop="661dp"
+                android:layout_width="121.2dp"
+                android:layout_height="39.2dp"
+                android:text="@string/kamus_bahasa_isyarat_string"
+                />
+
+            <TextView
+                android:id="@+id/angka_bahasa_isyarat"
+                android:layout_width="121.2dp"
+                android:layout_height="39.2dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="228dp"
+                android:layout_marginTop="454dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/angka_bahasa_isyarat_string"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mari_belajar_bersama_bahasa_isyarat_"
+                android:layout_width="147.2dp"
+                android:layout_height="39.2dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="175dp"
+                android:fontFamily="@font/poppins"
+                android:text="@string/mari_belajar_bersama_bahasa_isyarat__string"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/selamat_datang_di_sincara_"
+                android:layout_width="177.8dp"
+                android:layout_height="59.8dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="115dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/selamat_datang_di_sincara__string"
+                android:textColor="@color/_bg__beranda_sincara_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView android:id="@+id/welcome_pict"
+                android:src="@drawable/welcome_pict"
+                android:contentDescription="welcome_pict"
+                android:layout_marginStart="209dp"
+                android:layout_marginTop="135dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp" />
+
+            <ImageView android:id="@+id/gambar_alphabet_button"
+                android:src="@drawable/gambar_alphabet_button"
+                android:contentDescription="gambar_alphabet_button"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="356dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <ImageView android:id="@+id/gambar_angka_button"
+                android:src="@drawable/gambar_angka_button"
+                android:contentDescription="gambar_angka_button"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="356dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <ImageView android:id="@+id/gambar_kalimat_button"
+                android:src="@drawable/gambar_kalimat_button"
+                android:contentDescription="gambar_kalimat_button"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="563dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <ImageView android:id="@+id/gambar_kamus_button"
+                android:src="@drawable/gambar_kamus_button"
+                android:contentDescription="gambar_kamus_button"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="563dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

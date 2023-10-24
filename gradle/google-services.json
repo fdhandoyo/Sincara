@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1030791276779",
+    "project_id": "sincara",
+    "storage_bucket": "sincara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030791276779:android:90ebc6c97d8127786076ae",
+        "android_client_info": {
+          "package_name": "org.jvf.sincara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030791276779-k9ilit2i74il0oaf6goo7dqf0rc28htn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.jvf.sincara",
+            "certificate_hash": "1bf29681cd8e964731de77305e22f2bb62aa548a"
+          }
+        },
+        {
+          "client_id": "1030791276779-oghi1gon2th7rh99qsjt2poq0qlnmbrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1jZSgqjOSyAsnXI2A0Rew9PKpuINFMXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030791276779-oghi1gon2th7rh99qsjt2poq0qlnmbrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
