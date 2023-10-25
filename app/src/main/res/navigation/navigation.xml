@@ -14,13 +14,18 @@
             android:id="@+id/action_loginFragment_to_dashboardFragment"
             app:destination="@id/dashboardFragment" />
 
+
     </fragment>
 
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="org.jvf.sincara.ui.dashboard.DashboardFragment"
-        android:label="@string/DashboardFragment"
-        tools:layout="@layout/fragment_dashboard"/>
+        android:label="@string/dashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 
 </navigation>
 

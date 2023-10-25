@@ -1,5 +1,7 @@
 package org.jvf.sincara.ui.login
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,8 +11,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
-import org.jvf.sincara.R
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import org.jvf.sincara.databinding.FragmentLoginBinding
+import org.jvf.sincara.ui.dashboard.DashboardFragmentDirections
 
 class LoginFragment : Fragment() {
     private val contract = FirebaseAuthUIActivityResultContract()
@@ -21,30 +25,43 @@ class LoginFragment : Fragment() {
         ViewModelProvider(this).get(LoginViewModel::class.java)
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        binding = FragmentLoginBinding.inflate(layoutInflater, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentLoginBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         binding.loginGoogle.setOnClickListener { googleLogin() }
-        viewModel.authState.observe(this){}
-
-        val action = LoginFragmentDirections.actionLoginFragmentToDashboardFragment()
-        findNavController().navigate(action)
     }
 
-    private fun googleLogin() {
-        if (binding.loginGoogle.text == getString(R.string.logout)) {
-
+        private fun googleLogin() {
+            val providers = arrayListOf(AuthUI.IdpConfig.GoogleBuilder().build())
+            val intent = AuthUI.getInstance()
+                .createSignInIntentBuilder()
+                .setAvailableProviders(providers)
+                .build()
+            signInLauncher.launch(intent)
+            viewModel.authState.observe(viewLifecycleOwner, { user ->
+                if (user == null) {
+                    // Pengguna belum login, tampilkan tampilan login
+                    binding.root.visibility = View.VISIBLE
+                } else {
+                    // Pengguna telah login, navigasikan ke DashboardFragment
+                    findNavController().navigate(
+                        LoginFragmentDirections.actionLoginFragmentToDashboardFragment()
+                    )
+                }
+            })
         }
-        val providers = arrayListOf(AuthUI.IdpConfig.GoogleBuilder().build())
-        val intent = AuthUI.getInstance()
-            .createSignInIntentBuilder()
-            .setAvailableProviders(providers)
-            .build()
-        signInLauncher.launch(intent)
     }
 
-}
+
+
+
+
+
