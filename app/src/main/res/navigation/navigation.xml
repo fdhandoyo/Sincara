@@ -25,7 +25,16 @@
         <action
             android:id="@+id/action_dashboardFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_angkaFragment"
+            app:destination="@id/angkaFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/angkaFragment"
+        android:name="org.jvf.sincara.ui.angka.AngkaFragment"
+        android:label="AngkaFragment"
+        tools:layout="@layout/fragment_angka"/>
 
 </navigation>
 

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Sincara</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="koneksi_error">Koneksi error</string>
 
     //String Dashboard
     <string name="txtAyoBelajar">Ayo Semangat Belajar!</string>
@@ -16,6 +18,9 @@
     <string name="log_fb">Login With Facebook</string>
     <string name="logout">Sincara</string>
     <string name="keluar">Keluar</string>
+    
+    //String Angka Isyarat
+    <string name="txtTahuAngka">Mari cari tahu angka dalam bahasa isyarat</string>
 
     //String Profil
     <string name="nama_lengkap">Nama Lengkap</string>

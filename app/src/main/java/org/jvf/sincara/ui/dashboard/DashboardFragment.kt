@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import org.jvf.sincara.R
 import org.jvf.sincara.databinding.FragmentDashboardBinding
+import org.jvf.sincara.ui.angka.AngkaFragment
 
 class DashboardFragment : Fragment() {
     private lateinit var binding: FragmentDashboardBinding
@@ -33,6 +34,11 @@ class DashboardFragment : Fragment() {
         findNavController().navigate(action)
     }
 
+    private fun navAngka() {
+        val action = DashboardFragmentDirections.actionDashboardFragmentToAngkaFragment()
+        findNavController().navigate(action)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -44,6 +50,7 @@ class DashboardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.button2.setOnClickListener { logout() }
+        binding.tombolAngka.setOnClickListener{ navAngka() }
         viewModel.authState.observe(viewLifecycleOwner) {}
     }
 }

@@ -7,6 +7,10 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AppCompatActivity() {
+    companion object {
+        const val CHANNEL_ID = "updater"
+        const val PERMISSION_REQUEST_CODE = 11
+    }
 
     private lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
