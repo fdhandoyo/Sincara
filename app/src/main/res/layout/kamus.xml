@@ -66,7 +66,7 @@
                 android:layout_marginTop="73dp"
                 android:layout_width="146.2dp"
                 android:layout_height="21.2dp"
-                android:text="@string/kamus_bahasa_isyarat_string"
+                android:text="@string/txtKamus"
                 />
 
             <TextView android:id="@+id/buah___buahan"

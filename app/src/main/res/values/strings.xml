@@ -1,24 +1,29 @@
 <resources>
     <string name="app_name">Sincara</string>
-    <string name="dashboardFragment">Dashboard</string>
-    <string name="welcome">Halo, Selamat Datang</string>
-    <string name="halo_user__selamat_datang__string">Halo User, Selamat Datang!</string>
-    <string name="halo__mari_belajar__string">Ayo Semangat Belajar!</string>
-    <string name="cari_tahu_ada_apa_saja_di_sincara__string">Cari tahu ada apa saja di Sincara!</string>
-    <string name="alphabet_bahasa_isyarat_string">Alphabet Bahasa Isyarat</string>
-    <string name="komunikasi_bahasa_isyarat_string">Komunikasi Bahasa Isyarat</string>
-    <string name="kamus_bahasa_isyarat_string">Kamus Bahasa Isyarat</string>
-    <string name="angka_bahasa_isyarat_string">Angka Bahasa Isyarat</string>
-    <string name="mari_belajar_bersama_bahasa_isyarat__string">Mari Belajar Bersama Bahasa Isyarat!</string>
-    <string name="selamat_datang_di_sincara__string">Selamat Datang di Sincara!</string>
-    <string name="buah___buahan_string">Buah - buahan</string>
-    <string name="kendaraan_string">Kendaraan</string>
-    <string name="binatang_string">Binatang</string>
-    <string name="perkakas_rumah_string">Perkakas Rumah</string>
-    <string name="kata_sifat_string">Kata Sifat</string>
-    <string name="kata_kerja_string">Kata Kerja</string>
+
+    //String Dashboard
+    <string name="txtAyoBelajar">Ayo Semangat Belajar!</string>
+    <string name="txtSelamatDatang">Selamat Datang di Sincara!</string>
+    <string name="txtMariBelajar">Mari Belajar Bersama Bahasa Isyarat!</string>
+    <string name="txtCariTahu">Cari tahu ada apa saja di Sincara!</string>
+    <string name="txtAlfabet">Alphabet Bahasa Isyarat</string>
+    <string name="txtKomunikasi">Komunikasi Bahasa Isyarat</string>
+    <string name="txtKamus">Kamus Bahasa Isyarat</string>
+    <string name="txtAngka">Angka Bahasa Isyarat</string>
+
+    //String Login
     <string name="log_gugel">Login With Google</string>
     <string name="log_fb">Login With Facebook</string>
     <string name="logout">Sincara</string>
+    <string name="keluar">Keluar</string>
+
+    //String Profil
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email_isinya">Email</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+
+    //String Fragment
+    <string name="dashboardFragment">Dashboard</string>
+
 
 </resources>
