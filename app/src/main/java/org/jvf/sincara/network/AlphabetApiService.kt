@@ -1,6 +1,6 @@
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import org.jvf.sincara.model.HasilAngka
+import org.jvf.sincara.model.HasilAlphabet
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
@@ -17,14 +17,14 @@ private val retrofit = Retrofit.Builder()
     .baseUrl(BASE_URL)
     .build()
 
-interface AngkaApiService {
-    @GET("angkaAPI.json")
-    suspend fun getAngka(): List<HasilAngka>
+interface AlphabetApiService {
+    @GET("alphabetAPI.json")
+    suspend fun getAlphabet(): List<HasilAlphabet>
 }
 
-object AngkaApi {
-    val service: AngkaApiService by lazy {
-        retrofit.create(AngkaApiService::class.java)
+object AlphabetApi {
+    val service: AlphabetApiService by lazy {
+        retrofit.create(AlphabetApiService::class.java)
     }
 
     fun getInfoUrl(imageId: String): String {
@@ -32,4 +32,5 @@ object AngkaApi {
     }
 }
 
+enum class ApiStatus { LOADING, SUCCESS, FAILED}
 

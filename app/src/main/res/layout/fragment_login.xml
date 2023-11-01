@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
     <Button
         android:id="@+id/loginGoogle"
         android:layout_width="250dp"
         android:layout_height="48dp"
-        android:layout_marginTop="400dp"
         android:background="@drawable/tombol_bulat"
         android:fontFamily="@font/poppins"
         android:text="@string/log_gugel"
@@ -18,8 +18,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.111" />
 
     <Button
         android:id="@+id/loginFb"
@@ -30,6 +32,7 @@
         android:fontFamily="@font/poppins"
         android:text="@string/log_fb"
         android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/loginGoogle"
         app:layout_constraintStart_toStartOf="@+id/loginGoogle"
         app:layout_constraintTop_toBottomOf="@+id/loginGoogle" />
 
@@ -46,34 +49,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/kataSandi"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="300dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/userPengguna"
-        app:layout_constraintStart_toStartOf="@+id/userPengguna"
-        app:layout_constraintTop_toBottomOf="@+id/userPengguna">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="Kata Sandi" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/userPengguna"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/logo_sincara" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="Nama Pengguna" />
-    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

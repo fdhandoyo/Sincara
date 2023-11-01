@@ -1,4 +1,4 @@
-package org.jvf.sincara.ui.angka
+package org.jvf.sincara.ui.alphabet
 
 import ApiStatus
 import android.Manifest
@@ -17,15 +17,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.jvf.sincara.MainActivity
 import org.jvf.sincara.R
-import org.jvf.sincara.databinding.FragmentAngkaBinding
+import org.jvf.sincara.databinding.FragmentAlphabetBinding
 
-class AngkaFragment : Fragment() {
+class AlphabetFragment : Fragment() {
 
-    private val viewModel: AngkaViewModel by lazy {
-        ViewModelProvider(this)[AngkaViewModel::class.java]
+    private val viewModel: AlphabetViewModel by lazy {
+        ViewModelProvider(this)[AlphabetViewModel::class.java]
     }
-    private lateinit var binding: FragmentAngkaBinding
-    private lateinit var myAdapter: AngkaAdapter
+    private lateinit var binding: FragmentAlphabetBinding
+    private lateinit var myAdapter: AlphabetAdapter
 
     private var isLinearLayout = true
 
@@ -35,8 +35,8 @@ class AngkaFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAngkaBinding.inflate(layoutInflater, container, false)
-        myAdapter = AngkaAdapter()
+        binding = FragmentAlphabetBinding.inflate(layoutInflater, container, false)
+        myAdapter = AlphabetAdapter()
         with(binding.recyclerView) {
             addItemDecoration(
                 DividerItemDecoration(

@@ -36,10 +36,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/txtAyoBelajar"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/cardboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -73,7 +75,8 @@
         android:fontFamily="@font/poppins_bold"
         android:text="@string/txtCariTahu"
         android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="@+id/cardboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardboard" />
 
     <ImageButton
@@ -113,11 +116,11 @@
         android:id="@+id/tombolAngka"
         android:layout_width="150dp"
         android:layout_height="180dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
         android:background="@drawable/card_angka__shape"
         android:contentDescription="@string/txtAngka"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textCariDashboard"
         app:layout_constraintStart_toEndOf="@+id/tombolAlfabet"
         app:layout_constraintTop_toBottomOf="@+id/textCariDashboard" />
 
@@ -183,11 +186,11 @@
         android:id="@+id/tombolKamus"
         android:layout_width="150dp"
         android:layout_height="180dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
         android:background="@drawable/card_kamus_shape"
         android:contentDescription="@string/txtKamus"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textCariDashboard"
         app:layout_constraintStart_toEndOf="@+id/tombolKomnunikasi"
         app:layout_constraintTop_toBottomOf="@+id/tombolAngka" />
 
@@ -219,10 +222,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="500dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tombolKamus" />
+        app:layout_constraintTop_toBottomOf="@+id/textCariDashboard" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

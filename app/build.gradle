@@ -23,7 +23,6 @@ android {
         viewBinding true
     }
 
-
     buildTypes {
         release {
             minifyEnabled false
@@ -69,4 +68,5 @@ dependencies {
 
     //Work dependencies
     implementation 'androidx.work:work-runtime-ktx:2.8.1'
+
 }

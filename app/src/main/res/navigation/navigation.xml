@@ -13,8 +13,6 @@
         <action
             android:id="@+id/action_loginFragment_to_dashboardFragment"
             app:destination="@id/dashboardFragment" />
-
-
     </fragment>
 
     <fragment
@@ -28,6 +26,9 @@
         <action
             android:id="@+id/action_dashboardFragment_to_angkaFragment"
             app:destination="@id/angkaFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_alphabetFragment"
+            app:destination="@id/alphabetFragment" />
     </fragment>
 
     <fragment
@@ -35,6 +36,11 @@
         android:name="org.jvf.sincara.ui.angka.AngkaFragment"
         android:label="AngkaFragment"
         tools:layout="@layout/fragment_angka"/>
+    <fragment
+        android:id="@+id/alphabetFragment"
+        android:name="org.jvf.sincara.ui.alphabet.AlphabetFragment"
+        android:label="AlphabetFragment"
+        tools:layout="@layout/fragment_alphabet"/>
 
 </navigation>
 

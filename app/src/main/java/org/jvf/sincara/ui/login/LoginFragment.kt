@@ -1,20 +1,15 @@
 package org.jvf.sincara.ui.login
 
-import android.content.Context
-import android.content.SharedPreferences
+import androidx.navigation.fragment.findNavController
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import org.jvf.sincara.databinding.FragmentLoginBinding
-import org.jvf.sincara.ui.dashboard.DashboardFragmentDirections
 
 class LoginFragment : Fragment() {
     private val contract = FirebaseAuthUIActivityResultContract()
