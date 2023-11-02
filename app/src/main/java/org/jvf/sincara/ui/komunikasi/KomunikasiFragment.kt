@@ -16,16 +16,15 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.jvf.sincara.MainActivity
-import org.jvf.sincara.R
-import org.jvf.sincara.databinding.FragmentAngkaBinding
+import org.jvf.sincara.R import org.jvf.sincara.databinding.FragmentKomunikasiBinding
 
-class AngkaFragment : Fragment() {
+class KomunikasiFragment : Fragment() {
 
-    private val viewModel: AngkaViewModel by lazy {
-        ViewModelProvider(this)[AngkaViewModel::class.java]
+    private val viewModel: KomunikasiViewModel by lazy {
+        ViewModelProvider(this)[KomunikasiViewModel::class.java]
     }
-    private lateinit var binding: FragmentAngkaBinding
-    private lateinit var myAdapter: AngkaAdapter
+    private lateinit var binding: FragmentKomunikasiBinding
+    private lateinit var myAdapter: KomunikasiAdapter
     private var isLinearLayout = true
 
 
@@ -34,8 +33,8 @@ class AngkaFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAngkaBinding.inflate(layoutInflater, container, false)
-        myAdapter = AngkaAdapter()
+        binding = FragmentKomunikasiBinding.inflate(layoutInflater, container, false)
+        myAdapter = KomunikasiAdapter()
         with(binding.recyclerView) {
             addItemDecoration(
                 DividerItemDecoration(

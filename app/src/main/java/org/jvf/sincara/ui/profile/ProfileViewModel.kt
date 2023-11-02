@@ -1,4 +1,9 @@
 package org.jvf.sincara.ui.profile
 
-class ProfileViewModel {
+import androidx.lifecycle.ViewModel
+import org.jvf.sincara.ui.login.FirebaseUserLiveData
+
+class ProfileViewModel : ViewModel() {
+
+    val authState = FirebaseUserLiveData()
 }

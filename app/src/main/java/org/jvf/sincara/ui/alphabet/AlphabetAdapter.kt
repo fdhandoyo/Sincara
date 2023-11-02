@@ -25,6 +25,7 @@ class AlphabetAdapter : RecyclerView.Adapter<AlphabetAdapter.ViewHolder>() {
 
         fun bind(info: HasilAlphabet) = with(binding) {
             textAlphabet.text = info.deskripsi
+
             Glide.with(imageView.context)
                 .load(AlphabetApi.getInfoUrl(info.imageId))
                 .error(R.drawable.baseline_broken_image_24)

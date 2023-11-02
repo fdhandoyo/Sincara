@@ -218,14 +218,18 @@
         app:layout_constraintStart_toStartOf="@+id/gambarKamus"
         app:layout_constraintTop_toBottomOf="@+id/gambarKamus" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textCariDashboard" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bulat_profil"
+        app:layout_constraintBottom_toBottomOf="@+id/textBelajarDashboard"
+        app:layout_constraintStart_toEndOf="@+id/textBelajarDashboard"
+        app:layout_constraintTop_toTopOf="@+id/textBelajarDashboard"
+        app:srcCompat="@drawable/icon_user" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

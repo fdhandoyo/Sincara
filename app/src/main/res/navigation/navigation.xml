@@ -29,6 +29,12 @@
         <action
             android:id="@+id/action_dashboardFragment_to_alphabetFragment"
             app:destination="@id/alphabetFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_komunikasiFragment"
+            app:destination="@id/komunikasiFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 
     <fragment
@@ -41,6 +47,18 @@
         android:name="org.jvf.sincara.ui.alphabet.AlphabetFragment"
         android:label="AlphabetFragment"
         tools:layout="@layout/fragment_alphabet"/>
+    <fragment
+        android:id="@+id/komunikasiFragment"
+        android:name="org.jvf.sincara.ui.angka.KomunikasiFragment"
+        android:label="KomunikasiFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="org.jvf.sincara.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 
 </navigation>
 

@@ -107,9 +107,9 @@ class AlphabetFragment : Fragment() {
 
     private fun setIcon(menuItem: MenuItem) {
         val iconId = if (isLinearLayout)
-            R.drawable.ic_baseline_crop_square_24
-        else
             R.drawable.ic_baseline_grid_view_24
+        else
+            R.drawable.ic_baseline_crop_square_24
         menuItem.icon = ContextCompat.getDrawable(requireContext(), iconId)
     }
 

@@ -22,6 +22,7 @@
     //String Angka Isyarat
     <string name="txtTahuAngka">Mari cari tahu angka dalam bahasa isyarat</string>
     <string name="switch_layout">Ubah Tampilan</string>
+    <string name="profile_layout">Masuk Profil</string>
 
     //String Profil
     <string name="nama_lengkap">Nama Lengkap</string>
@@ -30,6 +31,9 @@
 
     //String Fragment
     <string name="dashboardFragment">Dashboard</string>
+
+    //String Splash
+    <string name="splash_screen__string">Designed by Sincara</string>
 
 
 </resources>

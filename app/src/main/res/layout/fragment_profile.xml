@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
 
     <TextView
-        android:id="@+id/textNamaLeng"
+        android:id="@+id/textNamaLengkap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/email_isinya"
-        app:layout_constraintStart_toStartOf="@+id/textNama"
-        app:layout_constraintTop_toBottomOf="@+id/textNama" />
+        app:layout_constraintStart_toStartOf="@+id/textNamanya"
+        app:layout_constraintTop_toBottomOf="@+id/textNamanya" />
 
     <TextView
         android:id="@+id/textNomor"
@@ -69,12 +69,12 @@
         app:layout_constraintVertical_bias="0.959" />
 
     <TextView
-        android:id="@+id/textNama"
+        android:id="@+id/textNamanya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Julius Angger Satrio Wicaksono"
-        app:layout_constraintStart_toStartOf="@+id/textNamaLeng"
-        app:layout_constraintTop_toBottomOf="@+id/textNamaLeng" />
+        app:layout_constraintStart_toStartOf="@+id/textNamaLengkap"
+        app:layout_constraintTop_toBottomOf="@+id/textNamaLengkap" />
 
     <TextView
         android:id="@+id/textEmailnya"
