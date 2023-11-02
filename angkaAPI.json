@@ -1,3 +1,12 @@
 [
-  {"deskripsi": "TestGIF", "imageId": "https://media.giphy.com/media/xThuWu82QD3pj4wvEQ/giphy.gif"}
+  {"deskripsi": "Angka 1", "imageId": "1"},
+  {"deskripsi": "Angka 2", "imageId": "2"},
+  {"deskripsi": "Angka 3", "imageId": "3"},
+  {"deskripsi": "Angka 4", "imageId": "4"},
+  {"deskripsi": "Angka 5", "imageId": "5"},
+  {"deskripsi": "Angka 6", "imageId": "6"},
+  {"deskripsi": "Angka 7", "imageId": "7"},
+  {"deskripsi": "Angka 8", "imageId": "8"},
+  {"deskripsi": "Angka 9", "imageId": "9"},
+  {"deskripsi": "Angka 10", "imageId": "10"}
 ]
