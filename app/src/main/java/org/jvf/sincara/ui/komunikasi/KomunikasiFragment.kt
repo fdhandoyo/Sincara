@@ -1,6 +1,7 @@
 package org.jvf.sincara.ui.angka
 
 import ApiStatus
+import KomunikasiAdapter
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build

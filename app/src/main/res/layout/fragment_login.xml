@@ -23,18 +23,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.111" />
 
-    <Button
-        android:id="@+id/loginFb"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/tombol_bulat"
-        android:fontFamily="@font/poppins"
-        android:text="@string/log_fb"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/loginGoogle"
-        app:layout_constraintStart_toStartOf="@+id/loginGoogle"
-        app:layout_constraintTop_toBottomOf="@+id/loginGoogle" />
+<!--    <Button-->
+<!--        android:id="@+id/loginFb"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:background="@drawable/tombol_bulat"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:text="@string/log_fb"-->
+<!--        android:textSize="14sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/loginGoogle"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/loginGoogle"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/loginGoogle" />-->
 
     <TextView
         android:id="@+id/tentangSincara"

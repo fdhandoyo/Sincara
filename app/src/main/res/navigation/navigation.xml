@@ -40,21 +40,21 @@
     <fragment
         android:id="@+id/angkaFragment"
         android:name="org.jvf.sincara.ui.angka.AngkaFragment"
-        android:label="AngkaFragment"
+        android:label="@string/angkaFragment"
         tools:layout="@layout/fragment_angka"/>
     <fragment
         android:id="@+id/alphabetFragment"
         android:name="org.jvf.sincara.ui.alphabet.AlphabetFragment"
-        android:label="AlphabetFragment"
+        android:label="@string/hurufFragment"
         tools:layout="@layout/fragment_alphabet"/>
     <fragment
         android:id="@+id/komunikasiFragment"
         android:name="org.jvf.sincara.ui.angka.KomunikasiFragment"
-        android:label="KomunikasiFragment" />
+        android:label="@string/komunikasiFragment" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="org.jvf.sincara.ui.profile.ProfileFragment"
-        android:label="ProfileFragment" >
+        android:label="@string/profileFragment" >
         <action
             android:id="@+id/action_profileFragment_to_loginFragment"
             app:destination="@id/loginFragment" />

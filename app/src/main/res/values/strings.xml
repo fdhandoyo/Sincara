@@ -31,6 +31,10 @@
 
     //String Fragment
     <string name="dashboardFragment">Dashboard</string>
+    <string name="angkaFragment">Angka Isyarat</string>
+    <string name="hurufFragment">Huruf Isyarat</string>
+    <string name="komunikasiFragment">Komunikasi Isyarat</string>
+    <string name="profileFragment">Profil Pribadi</string>
 
     //String Splash
     <string name="splash_screen__string">Designed by Sincara</string>
