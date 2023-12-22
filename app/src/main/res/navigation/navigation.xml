@@ -30,11 +30,14 @@
             android:id="@+id/action_dashboardFragment_to_alphabetFragment"
             app:destination="@id/alphabetFragment" />
         <action
-            android:id="@+id/action_dashboardFragment_to_komunikasiFragment"
-            app:destination="@id/komunikasiFragment" />
-        <action
             android:id="@+id/action_dashboardFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_tipsFragment"
+            app:destination="@id/tipsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_sejarahFragment"
+            app:destination="@id/sejarahFragment" />
     </fragment>
 
     <fragment
@@ -43,14 +46,61 @@
         android:label="@string/angkaFragment"
         tools:layout="@layout/fragment_angka"/>
     <fragment
+        android:id="@+id/sejarahFragment"
+        android:name="org.jvf.sincara.ui.sejarah.SejarahFragment"
+        android:label="@string/sejarahFragment"
+        tools:layout="@layout/fragment_sejarah"/>
+    <fragment
         android:id="@+id/alphabetFragment"
         android:name="org.jvf.sincara.ui.alphabet.AlphabetFragment"
         android:label="@string/hurufFragment"
         tools:layout="@layout/fragment_alphabet"/>
     <fragment
-        android:id="@+id/komunikasiFragment"
-        android:name="org.jvf.sincara.ui.angka.KomunikasiFragment"
-        android:label="@string/komunikasiFragment" />
+        android:id="@+id/tipsFragment"
+        android:name="org.jvf.sincara.ui.tips.TipsFragment"
+        android:label="@string/tipsFragment"
+        tools:layout="@layout/fragment_tips">
+        <action
+            android:id="@+id/action_tipsFragment_to_sehariFragment"
+            app:destination="@id/sehariFragment" />
+        <action
+            android:id="@+id/action_tipsFragment_to_pdFragment"
+            app:destination="@id/pdFragment" />
+        <action
+            android:id="@+id/action_tipsFragment_to_kendalaFragment"
+            app:destination="@id/kendalaFragment" />
+        <action
+            android:id="@+id/action_tipsFragment_to_kulturFragment"
+            app:destination="@id/kulturFragment" />
+        <action
+            android:id="@+id/action_tipsFragment_to_kosakataFragment"
+            app:destination="@id/kosakataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sehariFragment"
+        android:name="org.jvf.sincara.ui.tips.sehari.SehariFragment"
+        android:label="@string/sehariFragment"
+        tools:layout="@layout/fragment_sehari"/>
+    <fragment
+        android:id="@+id/pdFragment"
+        android:name="org.jvf.sincara.ui.tips.pd.PdFragment"
+        android:label="@string/pdFragment"
+        tools:layout="@layout/fragment_pd"/>
+    <fragment
+        android:id="@+id/kulturFragment"
+        android:name="org.jvf.sincara.ui.tips.kultur.KulturFragment"
+        android:label="@string/kulturFragment"
+        tools:layout="@layout/fragment_kultur"/>
+    <fragment
+        android:id="@+id/kendalaFragment"
+        android:name="org.jvf.sincara.ui.tips.kendala.KendalaFragment"
+        android:label="@string/kendalaFragment"
+        tools:layout="@layout/fragment_kendala"/>
+    <fragment
+        android:id="@+id/kosakataFragment"
+        android:name="org.jvf.sincara.ui.tips.kosakata.KosakataFragment"
+        android:label="@string/kosakataFragment"
+        tools:layout="@layout/fragment_kosakata"/>
     <fragment
         android:id="@+id/profileFragment"
         android:name="org.jvf.sincara.ui.profile.ProfileFragment"

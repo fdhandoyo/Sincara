@@ -34,7 +34,8 @@ class DashboardFragment : Fragment() {
 
         binding.tombolAngka.setOnClickListener { navAngka() }
         binding.tombolAlfabet.setOnClickListener { navHuruf() }
-        binding.tombolKomnunikasi.setOnClickListener { navKomunikasi() }
+        binding.tombolKomnunikasi.setOnClickListener { navTips() }
+        binding.tombolKamus.setOnClickListener { navSejarah() }
         binding.profileButton.setOnClickListener { navProfile() }
         viewModel.authState.observe(viewLifecycleOwner) {}
     }
@@ -47,8 +48,11 @@ class DashboardFragment : Fragment() {
         val action = DashboardFragmentDirections.actionDashboardFragmentToAlphabetFragment()
         findNavController().navigate(action)
     }
-    private fun navKomunikasi() {
-        val action = DashboardFragmentDirections.actionDashboardFragmentToKomunikasiFragment()
+    private fun navTips() {
+        val action = DashboardFragmentDirections.actionDashboardFragmentToTipsFragment()
+        findNavController().navigate(action)
+    }  private fun navSejarah() {
+        val action = DashboardFragmentDirections.actionDashboardFragmentToSejarahFragment()
         findNavController().navigate(action)
     }
     private fun navProfile() {
