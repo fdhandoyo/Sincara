@@ -11,7 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import org.jvf.sincara.R
 import org.jvf.sincara.databinding.FragmentDashboardBinding
 
-class DashboardFragment : Fragment() {
+open class DashboardFragment : Fragment() {
     private lateinit var binding: FragmentDashboardBinding
 
     private val viewModel: DashboardViewModel by lazy {
@@ -30,7 +30,7 @@ class DashboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        (requireActivity() as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        requireActivity().actionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding.tombolAngka.setOnClickListener { navAngka() }
         binding.tombolAlfabet.setOnClickListener { navHuruf() }
