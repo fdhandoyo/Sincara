@@ -16,6 +16,21 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-1518601029">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="0981137391000817" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="INFINIX&#10; Infinix X6835" value="120" />
+                  <entry key="Pixel_2_API_28" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1071638172">
           <value>
             <AndroidTestResultsTableState>
@@ -30,6 +45,61 @@
           </value>
         </entry>
         <entry key="-658413737">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Pixel_2_API_28" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-531707727">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="0981137391000817" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="INFINIX&#10; Infinix X6835" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="298058569">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Pixel_2_API_28" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="364643595">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="0981137391000817" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="INFINIX&#10; Infinix X6835" value="120" />
+                  <entry key="Pixel_2_API_28" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="495225616">
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
